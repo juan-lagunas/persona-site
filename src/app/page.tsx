@@ -1,11 +1,11 @@
 import Header from "@/app/components/Header"
-import Intro from "@/app/components/Intro"
+import Nav from "@/app/components/Nav"
 
 export default function Home() {
   return (
     <div>
-      <Header />
-      <Intro />
+      <Nav/>
+      <Header/>
     </div>
   )
 }

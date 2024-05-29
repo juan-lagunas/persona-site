@@ -1,33 +1,25 @@
-"use client"
-
+import Image from "next/image"
 import Link from "next/link"
 
-const navigation = [
-    { name: "About", href: "#", current: false },
-    { name: "Projects", href: "#", current: false },
-    { name: "Contact", href: "#", current: false },
-]
-
 export default function Header() {
-    return (
-        <div className="w-full">
-            <nav className=" font-bold">
-                {/* large */}
-                <div className="flex h-16 items-center justify-between text-xl">
-                    <div className="flex text-3xl">
-                        <Link href="." className="transition ease-in-out duration-200 cursor-pointer">Betillo</Link>
-                    </div>
-
-                    <div className="flex flex-1 justify-end">
-                        {navigation.map((item) => (
-                            <Link key={item.name} href={item.href} className="flex py-2 px-4 m-2 rounded-lg hover:bg-[#E68A00] hover:text-[#0A0C0D] transition ease-in-out duration-200 cursor-pointer">
-                                {item.name}
-                            </Link>
-                        ))}
+    return(
+        <div className="h-[450px] flex items-center">
+            <div className="flex items-center bg-white rounded-3xl overflow-hidden">
+                <div className="w-2/3 flex-1 text-2xl text-left px-10">
+                    <h1 className="text-5xl pb-3 font-bold">Hello, World!</h1> 
+                    <div className="">
+                        My name is Juan Alberto Lagunas Lara, but to my family, I'm known as Betillo or Tillo ("Tee-yo") for short.
+                        I'm an enthusiastic electrical and computer engineering student, with an interest in robotics and a strong desire to empower my Mexican community.
+                        My passions extend to both acquiring knowledge and sharing it with others.
                     </div>
                 </div>
-            </nav>
-            
+
+                <div className="w-1/3 h-full flex items-center justify-end">
+                    <div className="relative w-72 h-96">
+                        <Image fill src="/images/juan.jpeg" alt="Picture of me during the 2024 solar eclipse."/>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
