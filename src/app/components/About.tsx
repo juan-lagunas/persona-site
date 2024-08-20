@@ -6,7 +6,7 @@ export default function About() {
         <div className="h-fit max-w-[1000px] mx-auto">
             <h1 className="text-5xl md:text-7xl font-bold mb-2">Hello, World!</h1>
             <div className="md:text-xl mb-10">
-                My name is <a href="#" className="font-bold text-[#D99748] hover:scale-105">Juan Alberto Lagunas-Lara</a>, but to my family, I&apos;m known as Betillo or Tillo ("Tee-yo").
+                My name is <a href="#" className="font-bold text-[#D99748] hover:scale-105">Juan Alberto Lagunas-Lara</a>, but to my family, I&apos;m known as Betillo or Tillo (&quot;Tee-yo&quot;).
                 I&apos;m an enthusiastic electrical and computer engineering student, with an interest in robotics and a strong desire to empower my Mexican community.
                 My passions extend to both <a href="#" className="text-blue-600">acquiring knowledge</a> and <a href="#" className="text-blue-600">sharing it with others</a>.
             </div>
