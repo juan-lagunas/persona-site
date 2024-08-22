@@ -1,6 +1,7 @@
 import SideNav from "@/app/components/SideNav"
 import About from "@/app/components/About"
-import Passions from "@/app/components/Passions"
+import Journey from "@/app/components/Journey"
+import Projects from "@/app/components/Projects"
 
 
 export default function Home() {
@@ -8,7 +9,8 @@ export default function Home() {
     <SideNav>
       <div className="w-[90%] mx-auto flex flex-col gap-y-10 md:gap-y-20 py-10">
         <About/>
-        <Passions/>
+        <Journey/>
+        <Projects />
       </div>
     </SideNav>
   )

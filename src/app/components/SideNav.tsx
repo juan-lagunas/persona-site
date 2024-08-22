@@ -11,7 +11,7 @@ interface SideNavProps {
 }
 
 const SideNav: React.FC<SideNavProps> = ({ children }) => {
-    const [inSpanish, setSpanish] = useState(false)
+    const [inSpanish, setSpanish] = useState(true)
     const toggleLanguage = () => {
         setSpanish(!inSpanish)
     }
@@ -19,10 +19,10 @@ const SideNav: React.FC<SideNavProps> = ({ children }) => {
     return (
         <div className="flex flex-col h-screen">
             <div className="flex overflow-auto h-full">
-                <div className="grid grid-rows-3 text-xs w-[20%] max-w-[150px] h-full py-10 bg-[#0D0D0D]">
+                <div className="grid grid-rows-3 text-sm w-[20%] max-w-[200px] h-full py-10 bg-[#0D0D0D]">
                     <div className="text-center text-3xl font-bold">Tillo</div>
                     <div className="flex flex-col gap-y-6 items-center justify-center capitalize">
-                        <div>Passions</div>
+                        <div>Journey</div>
                         <div>Projects</div>
                         <div>Contact</div>
                     </div>
