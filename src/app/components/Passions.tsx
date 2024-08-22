@@ -4,10 +4,9 @@ export default function Passions() {
             <div className="grid grid-cols-2 gap-6">
                 <div className="col-span-2 md:col-span-1 h-96 w-full max-w-[600px] mx-auto bg-[#0D0D0D] border-e-2 border-[#00000] p-4">
                     <h1 className="font-bold text-xl mb-2">From Gamer to Lifelong Learner: My Unexpected Journey</h1>
-                    In high school, my priorities were pretty clear: study just enough to keep the grades up, and then dive back into the latest video game. But over the past year, something shifted. I found myself drawn to learning in a way I never expected.
-                    <br></br>
-                    <br></br>
-                    It started with Harvard&apos;s CS50 course, which was so engaging that I wanted more. That led me to explore MIT&apos;s OpenCourseWare, where I&apos;ve been diving into subjects I never imagined I&apos;d enjoy. It&apos;s been a wild ride, and I&apos;m excited to see where this newfound passion for learning takes me next!
+                    In high school, my priorities were pretty clear: study just enough to keep the grades up, and then dive back into the latest video game. But something changed this past year. I stumbled upon Harvard&apos;s CS50 course, and to my surprise, I got hooked—not on a new game, but on learning.
+
+                    Since then, I&apos;ve explored even more through MIT&apos;s OpenCourseWare. Who knew that taking courses could actually be fun? It&apos;s been an unexpected journey, but a rewarding one. I&apos;m excited to keep leveling up my knowledge and see where this new passion takes me!
                 </div>
                 <div className="col-span-2 md:col-span-1 h-96 w-full max-w-[600px] mx-auto bg-[#0D0D0D] border-e-2 border-[#00000] p-4">
                     <h1 className="font-bold text-xl mb-2">My Journey from Student to Teacher: Finding Purpose in Helping Others</h1>
