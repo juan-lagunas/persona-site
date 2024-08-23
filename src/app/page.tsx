@@ -7,7 +7,7 @@ import Support from "@/app/components/Support"
 export default function Home() {
   return (
     <SideNav>
-      <div className="w-[90%] mx-auto flex flex-col gap-y-10 md:gap-y-20 py-20">
+      <div className="w-[90%] mx-auto flex flex-col gap-y-10 md:gap-y-20 py-10">
         <About/>
         <Journey/>
         <Support />

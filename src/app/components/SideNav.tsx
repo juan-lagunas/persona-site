@@ -19,7 +19,7 @@ const SideNav: React.FC<SideNavProps> = ({ children }) => {
     return (
         <div className="flex flex-col h-dvh">
             <div className="flex overflow-auto h-full">
-                <div className="grid grid-rows-2 text-sm w-[20%] max-w-[200px] h-full py-20 bg-[#0D0D0D]">
+                <div className="grid grid-rows-2 text-sm w-[20%] max-w-[200px] h-full py-10 bg-[#0D0D0D]">
                     <div className="text-center text-3xl font-bold">Tillo</div>
                     
                     <div className="flex flex-col items-center justify-end gap-y-4 text-white">
