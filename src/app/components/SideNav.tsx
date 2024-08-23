@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faDiscord, faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 
@@ -27,10 +27,9 @@ const SideNav: React.FC<SideNavProps> = ({ children }) => {
                         <div>Contact</div>
                     </div>
                     <div className="flex flex-col items-center justify-end gap-y-4 text-white">
-                        <div className="w-8 h-8 rounded-full flex items-center justify-center"><FontAwesomeIcon className="size-6" icon={faGithub} /></div>
-                        <div className="w-8 h-8 rounded-full flex items-center justify-center"><FontAwesomeIcon className="size-6" icon={faDiscord} /></div>
-                        <div className="w-8 h-8 rounded-full flex items-center justify-center"><FontAwesomeIcon className="size-6" icon={faYoutube} /></div>
-                        <div className="w-8 h-8 rounded-full flex items-center justify-center"><FontAwesomeIcon className="size-6" icon={faEnvelope} /></div>
+                        <a href="https://github.com/juan-lagunas" className="w-8 h-8 rounded-full flex items-center justify-center"><FontAwesomeIcon className="size-6" icon={faGithub} /></a>
+                        <a href="https://www.youtube.com/@betillo-lagunas" className="w-8 h-8 rounded-full flex items-center justify-center"><FontAwesomeIcon className="size-6" icon={faYoutube} /></a>
+                        <a href="mailto:juanlagunas28@gmail.com" className="w-8 h-8 rounded-full flex items-center justify-center"><FontAwesomeIcon className="size-6" icon={faEnvelope} /></a>
                         <button onClick={toggleLanguage} className="text-white font-thin">
                             {inSpanish ? "English" : "Español"}
                         </button>
