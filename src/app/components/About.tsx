@@ -13,7 +13,7 @@ export default function About() {
                 My name is <a href="#" className="font-bold text-[#D99748] hover:scale-105">Juan Alberto Lagunas-Lara</a>, but to my family, I&apos;m known as Betillo or Tillo (&quot;Tee-yo&quot;).
                 I&apos;m an enthusiastic electrical engineering student who&apos;s deeply into robotics and passionate about empowering my Mexican community. I&apos;ve always been curious about how things work, and I love learning as much as I enjoy sharing what I&apos;ve picked up along the way.
 
-                If you&apos;re here to connect, collaborate, or just see what I&apos;m up to, you&apos;re in the right place. Let&apos;s make something awesome together!
+                If you&apos;re here to connect, collaborate, or just see what I&apos;m up to, then you&apos;re in the right place.
             </div>
         </section>
     )
