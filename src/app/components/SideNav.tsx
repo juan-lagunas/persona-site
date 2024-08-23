@@ -22,7 +22,7 @@ const SideNav: React.FC<SideNavProps> = ({ children }) => {
                 <div className="grid grid-rows-3 text-sm w-[20%] max-w-[200px] h-full py-10 bg-[#0D0D0D]">
                     <div className="text-center text-3xl font-bold">Tillo</div>
                     <div className="flex flex-col gap-y-6 items-center justify-center capitalize">
-                        <div>Journey</div>
+                        <a href="#journey">Journey</a>
                         <div>Projects</div>
                         <div>Contact</div>
                     </div>

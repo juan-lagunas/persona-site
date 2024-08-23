@@ -1,6 +1,6 @@
 export default function Journey() {
     return (
-        <section className="text-base lg:text-lg h-fit max-w-[1450px] mx-auto">
+        <section id="journey" className="text-base lg:text-lg h-fit max-w-[1450px] mx-auto">
             <div className="grid grid-cols-2 gap-6 h-fit">
                 <div className="col-span-2 lg:col-span-1 w-full max-w-[600px] mx-auto border-e-2 border-[#00000] md:p-4">
                     <h1 className="font-bold text-2xl md:text-3xl mb-2">From Gamer to Lifelong Learner</h1>
