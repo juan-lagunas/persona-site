@@ -19,9 +19,13 @@ const SideNav: React.FC<SideNavProps> = ({ children }) => {
     return (
         <div className="flex flex-col h-dvh">
             <div className="flex overflow-auto h-full">
-                <div className="grid grid-rows-2 text-sm w-[20%] max-w-[200px] h-full py-10 bg-[#0D0D0D]">
+                <div className="grid grid-rows-3 w-[20%] max-w-[200px] h-full py-10 bg-[#0D0D0D]">
                     <div className="text-center text-3xl font-bold">Tillo</div>
-                    
+                    <div className="flex flex-col gap-y-6 items-center justify-center capitalize">
+                        <div>Journey</div>
+                        <div>Projects</div>
+                        <div>Contact</div>
+                    </div>
                     <div className="flex flex-col items-center justify-end gap-y-4 text-white">
                         <a href="https://github.com/juan-lagunas" className="w-8 h-8 rounded-full flex items-center justify-center"><FontAwesomeIcon className="size-6" icon={faGithub} /></a>
                         <a href="https://www.youtube.com/@betillo-lagunas" className="w-8 h-8 rounded-full flex items-center justify-center"><FontAwesomeIcon className="size-6" icon={faYoutube} /></a>
