@@ -1,9 +1,9 @@
 export default function Unite() {
     return (
         <section id="unite" className="h-fit max-w-[1450px] mx-auto grid gap-10 bg-[#B3A369] text-[#121212] p-6 rounded-xl text-center">
-            <div className="text-base md:text-lg">
+            <div>
                 <h1 className="font-bold text-3xl md:text-5xl mb-2">Unite: Lifting Our Community Together</h1>
-                <p className="text-xl">Our community is rich with talent and potential, and by uniting, we can achieve amazing things. Whether you&apos;re a student seeking guidance, a parent looking for support, or someone eager to contribute, let&apos;s join forces.</p>
+                <p>Our community is rich with talent and potential, and by uniting, we can achieve amazing things. Whether you&apos;re a student seeking guidance, a parent looking for support, or someone eager to contribute, let&apos;s join forces.</p>
             </div>
             <div>
                 <h2 className="text-2xl md:text-4xl font-bold">How We Can Unite</h2>

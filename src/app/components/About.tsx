@@ -10,13 +10,11 @@ export default function About() {
             <p className="text-sm font-thin italic text-[#cfcfcf] mb-2">A picture of my fiancé and I during the 2024 total solar eclipse in Carbondale, Illinois.</p>
             <div className="">
                 <h1 className="text-5xl lg:text-7xl font-bold mb-2 ">Hello, World!</h1>
-                <div className="md:text-lg lg:text-2xl ">
-                    <p> 
-                        My name is <span className="font-bold text-[#B3A369]">Juan Alberto Lagunas-Lara</span>, but to my family, I&apos;m known as Betillo or Tillo (&quot;Tee-yo&quot;).
-                        I&apos;m an enthusiastic electrical engineering student who&apos;s deeply into robotics and passionate about empowering my Mexican community. I&apos;ve always been curious about how things work, and I love learning as much as I enjoy sharing what I&apos;ve picked up along the way.
-                        If you&apos;re here to connect, collaborate, or just see what I&apos;m up to, then you&apos;re in the right place.
-                    </p>
-                </div>
+                <p> 
+                    My name is <span className="font-bold text-[#B3A369]">Juan Alberto Lagunas-Lara</span>, but to my family, I&apos;m known as Betillo or Tillo (&quot;Tee-yo&quot;).
+                    I&apos;m an enthusiastic electrical engineering student who&apos;s deeply into robotics and passionate about empowering my Mexican community. I&apos;ve always been curious about how things work, and I love learning as much as I enjoy sharing what I&apos;ve picked up along the way.
+                    If you&apos;re here to connect, collaborate, or just see what I&apos;m up to, then you&apos;re in the right place.
+                </p>
             </div>
         </section>
     )
