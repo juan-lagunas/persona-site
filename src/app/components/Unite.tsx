@@ -5,7 +5,7 @@ export default function Unite() {
                 <h1 className="font-bold text-3xl md:text-5xl mb-2">Unite: Lifting Our Community Together</h1>
                 <p>Our community is rich with talent and potential, and by uniting, we can achieve amazing things. Whether you&apos;re a student seeking guidance, a parent looking for support, or someone eager to contribute, let&apos;s join forces.</p>
             </div>
-            <div className="bg-[#B3A369] text-[#121212] p-6 grid grid-cols-2 rounded-xl text-lg">
+            <div className="bg-[#B3A369] text-[#121212] p-6 grid grid-cols-1 md:grid-cols-2 rounded-xl md:text-lg gap-6">
                 <div>
                     <h2 className="text-2xl md:text-4xl font-bold text-center">How We Can Unite</h2>
                     <ul className="mt-2">
@@ -16,12 +16,14 @@ export default function Unite() {
                 </div>
                 <div>
                     <h2 className="text-2xl md:text-4xl font-bold text-center">Let’s Connect</h2>
-                    <ul className="h-[90%] flex flex-col mx-auto justify-center p-10 text-xl">
-                        <li><span className="font-bold">Email: </span>juanlagunas28@gmail.com</li>
-                        <li><span className="font-bold">Discord: </span>dajuanring</li>
-                        <li><span className="font-bold">Youtube: </span>https://www.youtube.com/@betillo-lagunas</li>
-                    </ul>
-                
+                    <div className="flex items-center justify-center h-full">
+                        <ul className="h-[90%] flex flex-col mx-auto justify-center md:p-10">
+                            <li><span className="font-bold">Email: </span>juanlagunas28@gmail.com</li>
+                            <li><span className="font-bold">Discord: </span>dajuanring</li>
+                            <li><span className="font-bold">Youtube: </span>https://www.youtube.com/@betillo-lagunas</li>
+                        </ul>
+                    </div>
+                   
                 </div>
             </div>
         </section>
