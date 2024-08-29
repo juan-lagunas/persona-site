@@ -1,8 +1,8 @@
-import SideNav from "@/app/spanish/components/SideNav"
-import About from "@/app/spanish/components/About"
-import Purpose from "@/app/spanish/components/Purpose"
-import Empower from "@/app/spanish/components/Empower"
-import Connect from "@/app/spanish/components/Connect"
+import SideNav from "@/app/english/components/SideNav"
+import About from "@/app/english/components/About"
+import Purpose from "@/app/english/components/Purpose"
+import Empower from "@/app/english/components/Empower"
+import Connect from "@/app/english/components/Connect"
 
 
 export default function Home() {
