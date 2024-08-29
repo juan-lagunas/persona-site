@@ -12,7 +12,7 @@ const SideNav: React.FC<SideNavProps> = ({ children }) => {
         <div className="flex flex-col h-dvh text-[#B3A369]">
             <div className="flex overflow-auto h-full">
                 <div className="grid grid-rows-3 w-[22.5%] max-w-[200px] h-full py-10 bg-[#0D0D0D]">
-                    <a href="#" className="text-center text-3xl font-bold">Tillo</a>
+                    <Link href="/" className="text-center text-3xl font-bold">Tillo</Link>
                     <div className="flex flex-col gap-y-6 items-center justify-center capitalize">
                         <a href="#purpose">Propósito</a>
                         <a href="#empower">Acción</a>
