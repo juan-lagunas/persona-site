@@ -11,7 +11,7 @@ export default function About() {
             <div className="">
                 <h1 className="text-5xl lg:text-7xl font-bold mb-2 ">¡Hola, Mundo!</h1>
                 <p> 
-                    Mi nombre es Juan Alberto Lagunas-Lara, pero en mi familia, soy conocido como Betillo o Tillo (“Tee-yo”). Soy un estudiante entusiasta de ingeniería eléctrica, con una gran pasión por la robótica y un fuerte compromiso con el empoderamiento de mi comunidad mexicana. Desde niño, siempre tuve curiosidad por entender cómo funcionan las cosas, y descubrí que me encanta aprender tanto como compartir lo que he aprendido. Si estás aquí para conectar, colaborar, o simplemente ver en qué ando, estás en el lugar correcto.
+                    Mi nombre es Juan Alberto Lagunas-Lara, pero en mi familia, soy conocido como Betillo o Tillo. Soy un estudiante entusiasta de ingeniería eléctrica, con una gran pasión por la robótica y un fuerte compromiso con el empoderamiento de mi comunidad mexicana. Desde niño, siempre tuve curiosidad por entender cómo funcionan las cosas, y descubrí que me encanta aprender tanto como compartir lo que he aprendido. Si estás aquí para conectar, colaborar, o simplemente ver en qué ando, estás en el lugar correcto.
                 </p>
             </div>
         </section>
