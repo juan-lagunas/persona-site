@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className="select-">{children}</body>
+            <body className="select-none">{children}</body>
         </html>
     )
 }

@@ -19,7 +19,7 @@ const SideNav: React.FC<SideNavProps> = ({ children }) => {
                     <div className="flex flex-col gap-y-6 items-center justify-center capitalize">
                         <a href="#journey">Journey</a>
                         <a href="#empower">Empower</a>
-                        <a href="#unite">Unite</a>
+                        <a href="#connect">Connect</a>
                     </div>
                     <div className="flex flex-col items-center justify-end gap-y-4">
                         <a href="https://github.com/juan-lagunas" className="w-8 h-8 rounded-full flex items-center justify-center"><FontAwesomeIcon className="size-6" icon={faGithub} /></a>
